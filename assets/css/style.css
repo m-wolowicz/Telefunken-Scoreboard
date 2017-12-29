@@ -1,0 +1,63 @@
+/*Creating my own CSS Style for the Telefunken ScoreKeeper site*/
+
+/*Styles that apply to the entire page*/
+body {
+	background-color: #fafafa;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+	min-height: 80px;
+	margin-bottom: 20px;
+}
+
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+}
+
+.navbar-header {
+	height: 80px;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	height: 80px;
+}
+
+#telefunkenLogo {
+	position: relative;
+	top: -5px;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+	background-image: url("../images/jumbotronBackgroundHome.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: white;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.jumbotron h1 {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	text-align: center;
+	font-size: 410%;
+	margin-top: 50px;
+}
+
+.jumbotron p {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 125%;
+	text-align: center;
+	margin-top: 30px;
+}
