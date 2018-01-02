@@ -37,9 +37,38 @@ body {
    height: 80px;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FF9E1B;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #FF9E1B;
+	background-color: white;
+}
+
 .navbar-right > li > a {
-   height: 80px;
-   line-height: 45px;
+	height: 80px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-default button {
+	margin-top: 23px;
+    margin-bottom: 23px;
+    padding: 9px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #ff9e1b;
 }
 
 /*JUMBOTRON*/
@@ -121,4 +150,25 @@ body {
 	margin: 0;
 	font-weight: 100;
 	letter-spacing: 4px;
+}
+
+/* QUOTE */
+.quoteDiv {
+	background-image: url(../images/quoteBackground.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: white;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.quoteDiv p {
+	color: white;
+	margin-bottom: 0;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 300%;
+	letter-spacing: 1px;
 }
